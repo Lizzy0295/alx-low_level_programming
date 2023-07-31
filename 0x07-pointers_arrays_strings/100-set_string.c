@@ -1,13 +1,12 @@
 #include "main.h"
-
 /**
- * _set_string - entry point.
- * @s: input.
- * @to: input.
- * Return: always 0
+ * set_string - set the value of a pointer to a char
+ * @s: pointer to a pointer
+ * @to: pointer char
  */
 void set_string(char **s, char *to)
 {
 	*s = to;
+
 }
 
